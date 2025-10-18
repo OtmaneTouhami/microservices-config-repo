@@ -3,3 +3,6 @@ GET https://examples.http-client.intellij.net/get
     ?generated-in=IntelliJ IDEA
 
 ###
+
+POST http://localhost:8082/actuator/refresh
+Accept: application/json
